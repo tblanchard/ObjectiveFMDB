@@ -10,6 +10,18 @@
 		5F6709AD1E8EB78D00A92C4F /* ObjectiveFMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F6709A31E8EB78D00A92C4F /* ObjectiveFMDB.framework */; };
 		5F6709B21E8EB78D00A92C4F /* ObjectiveFMDBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6709B11E8EB78D00A92C4F /* ObjectiveFMDBTests.m */; };
 		5F6709B41E8EB78D00A92C4F /* ObjectiveFMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F6709A61E8EB78D00A92C4F /* ObjectiveFMDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F6709C71E8EB7BD00A92C4F /* DBModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F6709BD1E8EB7BD00A92C4F /* DBModel.h */; };
+		5F6709C81E8EB7BD00A92C4F /* DBModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6709BE1E8EB7BD00A92C4F /* DBModel.m */; };
+		5F6709C91E8EB7BD00A92C4F /* FMDatabase+DistanceFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F6709BF1E8EB7BD00A92C4F /* FMDatabase+DistanceFunction.h */; };
+		5F6709CA1E8EB7BD00A92C4F /* FMDatabase+DistanceFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6709C01E8EB7BD00A92C4F /* FMDatabase+DistanceFunction.m */; };
+		5F6709CB1E8EB7BD00A92C4F /* FMDatabase+ObjectiveFMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F6709C11E8EB7BD00A92C4F /* FMDatabase+ObjectiveFMDB.h */; };
+		5F6709CC1E8EB7BD00A92C4F /* FMDatabase+ObjectiveFMDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6709C21E8EB7BD00A92C4F /* FMDatabase+ObjectiveFMDB.m */; };
+		5F6709CD1E8EB7BD00A92C4F /* FMDatabaseQueue+ObjectiveFMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F6709C31E8EB7BD00A92C4F /* FMDatabaseQueue+ObjectiveFMDB.h */; };
+		5F6709CE1E8EB7BD00A92C4F /* FMDatabaseQueue+ObjectiveFMDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6709C41E8EB7BD00A92C4F /* FMDatabaseQueue+ObjectiveFMDB.m */; };
+		5F6709CF1E8EB7BD00A92C4F /* FMResultSet+ObjectiveFMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F6709C51E8EB7BD00A92C4F /* FMResultSet+ObjectiveFMDB.h */; };
+		5F6709D01E8EB7BD00A92C4F /* FMResultSet+ObjectiveFMDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6709C61E8EB7BD00A92C4F /* FMResultSet+ObjectiveFMDB.m */; };
+		5F6709D31E8EE14D00A92C4F /* DBModel+DBMigrations.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F6709D11E8EE14D00A92C4F /* DBModel+DBMigrations.h */; };
+		5F6709D41E8EE14D00A92C4F /* DBModel+DBMigrations.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6709D21E8EE14D00A92C4F /* DBModel+DBMigrations.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +41,18 @@
 		5F6709AC1E8EB78D00A92C4F /* ObjectiveFMDBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjectiveFMDBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F6709B11E8EB78D00A92C4F /* ObjectiveFMDBTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveFMDBTests.m; sourceTree = "<group>"; };
 		5F6709B31E8EB78D00A92C4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F6709BD1E8EB7BD00A92C4F /* DBModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBModel.h; sourceTree = "<group>"; };
+		5F6709BE1E8EB7BD00A92C4F /* DBModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBModel.m; sourceTree = "<group>"; };
+		5F6709BF1E8EB7BD00A92C4F /* FMDatabase+DistanceFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FMDatabase+DistanceFunction.h"; sourceTree = "<group>"; };
+		5F6709C01E8EB7BD00A92C4F /* FMDatabase+DistanceFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FMDatabase+DistanceFunction.m"; sourceTree = "<group>"; };
+		5F6709C11E8EB7BD00A92C4F /* FMDatabase+ObjectiveFMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FMDatabase+ObjectiveFMDB.h"; sourceTree = "<group>"; };
+		5F6709C21E8EB7BD00A92C4F /* FMDatabase+ObjectiveFMDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FMDatabase+ObjectiveFMDB.m"; sourceTree = "<group>"; };
+		5F6709C31E8EB7BD00A92C4F /* FMDatabaseQueue+ObjectiveFMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FMDatabaseQueue+ObjectiveFMDB.h"; sourceTree = "<group>"; };
+		5F6709C41E8EB7BD00A92C4F /* FMDatabaseQueue+ObjectiveFMDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FMDatabaseQueue+ObjectiveFMDB.m"; sourceTree = "<group>"; };
+		5F6709C51E8EB7BD00A92C4F /* FMResultSet+ObjectiveFMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FMResultSet+ObjectiveFMDB.h"; sourceTree = "<group>"; };
+		5F6709C61E8EB7BD00A92C4F /* FMResultSet+ObjectiveFMDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FMResultSet+ObjectiveFMDB.m"; sourceTree = "<group>"; };
+		5F6709D11E8EE14D00A92C4F /* DBModel+DBMigrations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DBModel+DBMigrations.h"; sourceTree = "<group>"; };
+		5F6709D21E8EE14D00A92C4F /* DBModel+DBMigrations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DBModel+DBMigrations.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +95,18 @@
 		5F6709A51E8EB78D00A92C4F /* ObjectiveFMDB */ = {
 			isa = PBXGroup;
 			children = (
+				5F6709BD1E8EB7BD00A92C4F /* DBModel.h */,
+				5F6709BE1E8EB7BD00A92C4F /* DBModel.m */,
+				5F6709D11E8EE14D00A92C4F /* DBModel+DBMigrations.h */,
+				5F6709D21E8EE14D00A92C4F /* DBModel+DBMigrations.m */,
+				5F6709BF1E8EB7BD00A92C4F /* FMDatabase+DistanceFunction.h */,
+				5F6709C01E8EB7BD00A92C4F /* FMDatabase+DistanceFunction.m */,
+				5F6709C11E8EB7BD00A92C4F /* FMDatabase+ObjectiveFMDB.h */,
+				5F6709C21E8EB7BD00A92C4F /* FMDatabase+ObjectiveFMDB.m */,
+				5F6709C31E8EB7BD00A92C4F /* FMDatabaseQueue+ObjectiveFMDB.h */,
+				5F6709C41E8EB7BD00A92C4F /* FMDatabaseQueue+ObjectiveFMDB.m */,
+				5F6709C51E8EB7BD00A92C4F /* FMResultSet+ObjectiveFMDB.h */,
+				5F6709C61E8EB7BD00A92C4F /* FMResultSet+ObjectiveFMDB.m */,
 				5F6709A61E8EB78D00A92C4F /* ObjectiveFMDB.h */,
 				5F6709A71E8EB78D00A92C4F /* Info.plist */,
 			);
@@ -93,7 +129,13 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F6709D31E8EE14D00A92C4F /* DBModel+DBMigrations.h in Headers */,
+				5F6709CF1E8EB7BD00A92C4F /* FMResultSet+ObjectiveFMDB.h in Headers */,
+				5F6709C91E8EB7BD00A92C4F /* FMDatabase+DistanceFunction.h in Headers */,
+				5F6709CD1E8EB7BD00A92C4F /* FMDatabaseQueue+ObjectiveFMDB.h in Headers */,
+				5F6709C71E8EB7BD00A92C4F /* DBModel.h in Headers */,
 				5F6709B41E8EB78D00A92C4F /* ObjectiveFMDB.h in Headers */,
+				5F6709CB1E8EB7BD00A92C4F /* FMDatabase+ObjectiveFMDB.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +239,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F6709D41E8EE14D00A92C4F /* DBModel+DBMigrations.m in Sources */,
+				5F6709CC1E8EB7BD00A92C4F /* FMDatabase+ObjectiveFMDB.m in Sources */,
+				5F6709CA1E8EB7BD00A92C4F /* FMDatabase+DistanceFunction.m in Sources */,
+				5F6709D01E8EB7BD00A92C4F /* FMResultSet+ObjectiveFMDB.m in Sources */,
+				5F6709CE1E8EB7BD00A92C4F /* FMDatabaseQueue+ObjectiveFMDB.m in Sources */,
+				5F6709C81E8EB7BD00A92C4F /* DBModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

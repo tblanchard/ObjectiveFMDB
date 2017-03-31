@@ -1,0 +1,6 @@
+[submodule "SmalltalkCollections"]
+	path = SmalltalkCollections
+	url = git@github.com:tblanchard/SmalltalkCollections4ObjC.git
+[submodule "fmdb"]
+	path = fmdb
+	url = git@github.com:ccgus/fmdb.git
