@@ -180,7 +180,7 @@ Explore the DBModel class - it is insanely configuable.  For instance, you can c
 
 Here is the header for your enjoyment.
 
-``objc
+```objc
 #import "FMDatabaseQueue+ObjectiveFMDB.h"
 
 @interface DBModel : NSObject
