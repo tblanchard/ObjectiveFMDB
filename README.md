@@ -94,7 +94,13 @@ I punted on relationships.  Lets be real, phones are nothing but lists of lists 
 }
 ```
 
-The query dictionary works on equality - however if one of the values is an array, then an IN query is generated.
+The query dictionary works on equality - however if one of the values is an array, then an IN query is generated. This is adequate 80% of the time.  For that other 20% there's SQL.
+
+```objc
++(NSArray*)findBySqlWhere:(NSString*)sql parameters:(NSArray*)params;
+
+NSArray* topUsers = [User findBySqlWhere: @"followerCount > ? ORDER BY followerCount DESC LIMIT 50" parameters:@[@(100)]];
+```
 
 ## Migrations
 
