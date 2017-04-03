@@ -2,6 +2,7 @@
 //  DBModel.h
 //
 //  Created by Todd Blanchard on 1/27/16.
+//  Copyright © 2017 Todd Blanchard. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

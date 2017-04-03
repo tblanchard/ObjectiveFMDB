@@ -1,6 +1,5 @@
 //
 //  DBModel+DBMigrations.m
-//  TruePic
 //
 //  Created by Todd Blanchard on 1/10/17.
 //  Copyright © 2017 Todd Blanchard. All rights reserved.

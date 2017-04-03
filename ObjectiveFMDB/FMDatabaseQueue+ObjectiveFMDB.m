@@ -1,6 +1,5 @@
 //
 //  FMDatabaseQueue+Introspection.m
-//  PokeLab
 //
 //  Created by Todd Blanchard on 9/6/16.
 //  Copyright © 2016 Todd Blanchard. All rights reserved.

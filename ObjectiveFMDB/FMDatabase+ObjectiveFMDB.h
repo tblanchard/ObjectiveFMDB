@@ -1,8 +1,8 @@
 //
-//  FMDatabase+Introspection.h
-//  NumberStation
+//  FMDatabase+ObjectiveFMDB.h
 //
 //  Created by Todd Blanchard on 3/20/14.
+//  Copyright © 2017 Todd Blanchard. All rights reserved.
 //
 //
 

@@ -1,12 +1,11 @@
 //
-//  EGODatabaseResult+ORM.m
-//  NumberStation
+//  FMResultSet+ObjectiveFMDB.m
 //
 //  Created by Todd Blanchard on 3/20/14.
-//
+//  Copyright © 2017 Todd Blanchard. All rights reserved.
 //
 
-#import "FMResultSet+ORM.h"
+#import "FMResultSet+ObjectiveFMDB.h"
 #import "FMDatabase.h"
 
 #if FMDB_SQLITE_STANDALONE

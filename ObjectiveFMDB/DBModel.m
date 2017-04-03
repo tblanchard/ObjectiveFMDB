@@ -1,9 +1,8 @@
 //
 //  DBModel.m
-//  Parking
 //
 //  Created by Todd Blanchard on 1/27/16.
-//  Copyright © 2016 iParq, Inc. All rights reserved.
+//  Copyright © 2017 Todd Blanchard. All rights reserved.
 //
 
 #import "DBModel.h"

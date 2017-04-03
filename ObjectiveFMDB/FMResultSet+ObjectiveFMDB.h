@@ -1,6 +1,5 @@
 //
-//  EGODatabaseResult+ORM.h
-//  NumberStation
+//  FMResultSet+ObjectiveFMDB.h
 //
 //  Created by Todd Blanchard on 3/20/14.
 //
