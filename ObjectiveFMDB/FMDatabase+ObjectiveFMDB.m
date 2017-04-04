@@ -6,7 +6,7 @@
 //
 
 #import "FMDatabase+ObjectiveFMDB.h"
-#import "FMResultSet+ORM.h"
+#import "FMResultSet+ObjectiveFMDB.h"
 
 @implementation FMDatabase (ObjectiveFMDB)
 

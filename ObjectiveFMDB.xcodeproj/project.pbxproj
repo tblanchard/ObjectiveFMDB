@@ -22,6 +22,29 @@
 		5F6709D01E8EB7BD00A92C4F /* FMResultSet+ObjectiveFMDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6709C61E8EB7BD00A92C4F /* FMResultSet+ObjectiveFMDB.m */; };
 		5F6709D31E8EE14D00A92C4F /* DBModel+DBMigrations.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F6709D11E8EE14D00A92C4F /* DBModel+DBMigrations.h */; };
 		5F6709D41E8EE14D00A92C4F /* DBModel+DBMigrations.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6709D21E8EE14D00A92C4F /* DBModel+DBMigrations.m */; };
+		5F743C191E9320D0005C1C9A /* NSArray+SmalltalkCollections.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F743C0E1E9320D0005C1C9A /* NSArray+SmalltalkCollections.h */; };
+		5F743C1A1E9320D0005C1C9A /* NSArray+SmalltalkCollections.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F743C0F1E9320D0005C1C9A /* NSArray+SmalltalkCollections.m */; };
+		5F743C1B1E9320D0005C1C9A /* NSDictionary+SmalltalkCollections.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F743C101E9320D0005C1C9A /* NSDictionary+SmalltalkCollections.h */; };
+		5F743C1C1E9320D0005C1C9A /* NSDictionary+SmalltalkCollections.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F743C111E9320D0005C1C9A /* NSDictionary+SmalltalkCollections.m */; };
+		5F743C1D1E9320D0005C1C9A /* NSNumber+SmalltalkCollections.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F743C121E9320D0005C1C9A /* NSNumber+SmalltalkCollections.h */; };
+		5F743C1E1E9320D0005C1C9A /* NSNumber+SmalltalkCollections.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F743C131E9320D0005C1C9A /* NSNumber+SmalltalkCollections.m */; };
+		5F743C1F1E9320D0005C1C9A /* NSSet+SmalltalkCollections.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F743C141E9320D0005C1C9A /* NSSet+SmalltalkCollections.h */; };
+		5F743C201E9320D0005C1C9A /* NSSet+SmalltalkCollections.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F743C151E9320D0005C1C9A /* NSSet+SmalltalkCollections.m */; };
+		5F743C211E9320D0005C1C9A /* NSString+SmalltalkCollections.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F743C161E9320D0005C1C9A /* NSString+SmalltalkCollections.h */; };
+		5F743C221E9320D0005C1C9A /* NSString+SmalltalkCollections.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F743C171E9320D0005C1C9A /* NSString+SmalltalkCollections.m */; };
+		5F743C231E9320D0005C1C9A /* SmalltalkCollections.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F743C181E9320D0005C1C9A /* SmalltalkCollections.h */; };
+		5F743C311E93212A005C1C9A /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F743C261E93212A005C1C9A /* FMDatabase.h */; };
+		5F743C321E93212A005C1C9A /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F743C271E93212A005C1C9A /* FMDatabase.m */; };
+		5F743C331E93212A005C1C9A /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F743C281E93212A005C1C9A /* FMDatabaseAdditions.h */; };
+		5F743C341E93212A005C1C9A /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F743C291E93212A005C1C9A /* FMDatabaseAdditions.m */; };
+		5F743C351E93212A005C1C9A /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F743C2A1E93212A005C1C9A /* FMDatabasePool.h */; };
+		5F743C361E93212A005C1C9A /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F743C2B1E93212A005C1C9A /* FMDatabasePool.m */; };
+		5F743C371E93212A005C1C9A /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F743C2C1E93212A005C1C9A /* FMDatabaseQueue.h */; };
+		5F743C381E93212A005C1C9A /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F743C2D1E93212A005C1C9A /* FMDatabaseQueue.m */; };
+		5F743C391E93212A005C1C9A /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F743C2E1E93212A005C1C9A /* FMDB.h */; };
+		5F743C3A1E93212A005C1C9A /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F743C2F1E93212A005C1C9A /* FMResultSet.h */; };
+		5F743C3B1E93212A005C1C9A /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F743C301E93212A005C1C9A /* FMResultSet.m */; };
+		5F743C3E1E932239005C1C9A /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F743C3D1E932239005C1C9A /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +76,29 @@
 		5F6709C61E8EB7BD00A92C4F /* FMResultSet+ObjectiveFMDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FMResultSet+ObjectiveFMDB.m"; sourceTree = "<group>"; };
 		5F6709D11E8EE14D00A92C4F /* DBModel+DBMigrations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DBModel+DBMigrations.h"; sourceTree = "<group>"; };
 		5F6709D21E8EE14D00A92C4F /* DBModel+DBMigrations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DBModel+DBMigrations.m"; sourceTree = "<group>"; };
+		5F743C0E1E9320D0005C1C9A /* NSArray+SmalltalkCollections.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+SmalltalkCollections.h"; path = "SmalltalkCollections/SmalltalkCollections/Classes/NSArray+SmalltalkCollections.h"; sourceTree = "<group>"; };
+		5F743C0F1E9320D0005C1C9A /* NSArray+SmalltalkCollections.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+SmalltalkCollections.m"; path = "SmalltalkCollections/SmalltalkCollections/Classes/NSArray+SmalltalkCollections.m"; sourceTree = "<group>"; };
+		5F743C101E9320D0005C1C9A /* NSDictionary+SmalltalkCollections.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+SmalltalkCollections.h"; path = "SmalltalkCollections/SmalltalkCollections/Classes/NSDictionary+SmalltalkCollections.h"; sourceTree = "<group>"; };
+		5F743C111E9320D0005C1C9A /* NSDictionary+SmalltalkCollections.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+SmalltalkCollections.m"; path = "SmalltalkCollections/SmalltalkCollections/Classes/NSDictionary+SmalltalkCollections.m"; sourceTree = "<group>"; };
+		5F743C121E9320D0005C1C9A /* NSNumber+SmalltalkCollections.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSNumber+SmalltalkCollections.h"; path = "SmalltalkCollections/SmalltalkCollections/Classes/NSNumber+SmalltalkCollections.h"; sourceTree = "<group>"; };
+		5F743C131E9320D0005C1C9A /* NSNumber+SmalltalkCollections.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+SmalltalkCollections.m"; path = "SmalltalkCollections/SmalltalkCollections/Classes/NSNumber+SmalltalkCollections.m"; sourceTree = "<group>"; };
+		5F743C141E9320D0005C1C9A /* NSSet+SmalltalkCollections.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSSet+SmalltalkCollections.h"; path = "SmalltalkCollections/SmalltalkCollections/Classes/NSSet+SmalltalkCollections.h"; sourceTree = "<group>"; };
+		5F743C151E9320D0005C1C9A /* NSSet+SmalltalkCollections.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSSet+SmalltalkCollections.m"; path = "SmalltalkCollections/SmalltalkCollections/Classes/NSSet+SmalltalkCollections.m"; sourceTree = "<group>"; };
+		5F743C161E9320D0005C1C9A /* NSString+SmalltalkCollections.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+SmalltalkCollections.h"; path = "SmalltalkCollections/SmalltalkCollections/Classes/NSString+SmalltalkCollections.h"; sourceTree = "<group>"; };
+		5F743C171E9320D0005C1C9A /* NSString+SmalltalkCollections.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+SmalltalkCollections.m"; path = "SmalltalkCollections/SmalltalkCollections/Classes/NSString+SmalltalkCollections.m"; sourceTree = "<group>"; };
+		5F743C181E9320D0005C1C9A /* SmalltalkCollections.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SmalltalkCollections.h; path = SmalltalkCollections/SmalltalkCollections/Classes/SmalltalkCollections.h; sourceTree = "<group>"; };
+		5F743C261E93212A005C1C9A /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = fmdb/src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
+		5F743C271E93212A005C1C9A /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = fmdb/src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
+		5F743C281E93212A005C1C9A /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = fmdb/src/fmdb/FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		5F743C291E93212A005C1C9A /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = fmdb/src/fmdb/FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		5F743C2A1E93212A005C1C9A /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = fmdb/src/fmdb/FMDatabasePool.h; sourceTree = "<group>"; };
+		5F743C2B1E93212A005C1C9A /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = fmdb/src/fmdb/FMDatabasePool.m; sourceTree = "<group>"; };
+		5F743C2C1E93212A005C1C9A /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = fmdb/src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
+		5F743C2D1E93212A005C1C9A /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = fmdb/src/fmdb/FMDatabaseQueue.m; sourceTree = "<group>"; };
+		5F743C2E1E93212A005C1C9A /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = fmdb/src/fmdb/FMDB.h; sourceTree = "<group>"; };
+		5F743C2F1E93212A005C1C9A /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = fmdb/src/fmdb/FMResultSet.h; sourceTree = "<group>"; };
+		5F743C301E93212A005C1C9A /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = fmdb/src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
+		5F743C3D1E932239005C1C9A /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F743C3E1E932239005C1C9A /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,9 +124,12 @@
 		5F6709991E8EB78D00A92C4F = {
 			isa = PBXGroup;
 			children = (
+				5F743C251E932109005C1C9A /* FMDB */,
+				5F743C241E9320DA005C1C9A /* SmalltalkCollections */,
 				5F6709A51E8EB78D00A92C4F /* ObjectiveFMDB */,
 				5F6709B01E8EB78D00A92C4F /* ObjectiveFMDBTests */,
 				5F6709A41E8EB78D00A92C4F /* Products */,
+				5F743C3C1E932239005C1C9A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,6 +172,50 @@
 			path = ObjectiveFMDBTests;
 			sourceTree = "<group>";
 		};
+		5F743C241E9320DA005C1C9A /* SmalltalkCollections */ = {
+			isa = PBXGroup;
+			children = (
+				5F743C0E1E9320D0005C1C9A /* NSArray+SmalltalkCollections.h */,
+				5F743C0F1E9320D0005C1C9A /* NSArray+SmalltalkCollections.m */,
+				5F743C101E9320D0005C1C9A /* NSDictionary+SmalltalkCollections.h */,
+				5F743C111E9320D0005C1C9A /* NSDictionary+SmalltalkCollections.m */,
+				5F743C121E9320D0005C1C9A /* NSNumber+SmalltalkCollections.h */,
+				5F743C131E9320D0005C1C9A /* NSNumber+SmalltalkCollections.m */,
+				5F743C141E9320D0005C1C9A /* NSSet+SmalltalkCollections.h */,
+				5F743C151E9320D0005C1C9A /* NSSet+SmalltalkCollections.m */,
+				5F743C161E9320D0005C1C9A /* NSString+SmalltalkCollections.h */,
+				5F743C171E9320D0005C1C9A /* NSString+SmalltalkCollections.m */,
+				5F743C181E9320D0005C1C9A /* SmalltalkCollections.h */,
+			);
+			name = SmalltalkCollections;
+			sourceTree = "<group>";
+		};
+		5F743C251E932109005C1C9A /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				5F743C261E93212A005C1C9A /* FMDatabase.h */,
+				5F743C271E93212A005C1C9A /* FMDatabase.m */,
+				5F743C281E93212A005C1C9A /* FMDatabaseAdditions.h */,
+				5F743C291E93212A005C1C9A /* FMDatabaseAdditions.m */,
+				5F743C2A1E93212A005C1C9A /* FMDatabasePool.h */,
+				5F743C2B1E93212A005C1C9A /* FMDatabasePool.m */,
+				5F743C2C1E93212A005C1C9A /* FMDatabaseQueue.h */,
+				5F743C2D1E93212A005C1C9A /* FMDatabaseQueue.m */,
+				5F743C2E1E93212A005C1C9A /* FMDB.h */,
+				5F743C2F1E93212A005C1C9A /* FMResultSet.h */,
+				5F743C301E93212A005C1C9A /* FMResultSet.m */,
+			);
+			name = FMDB;
+			sourceTree = "<group>";
+		};
+		5F743C3C1E932239005C1C9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F743C3D1E932239005C1C9A /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -129,13 +223,25 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F743C311E93212A005C1C9A /* FMDatabase.h in Headers */,
+				5F743C1D1E9320D0005C1C9A /* NSNumber+SmalltalkCollections.h in Headers */,
+				5F743C231E9320D0005C1C9A /* SmalltalkCollections.h in Headers */,
+				5F743C391E93212A005C1C9A /* FMDB.h in Headers */,
+				5F743C3A1E93212A005C1C9A /* FMResultSet.h in Headers */,
 				5F6709D31E8EE14D00A92C4F /* DBModel+DBMigrations.h in Headers */,
 				5F6709CF1E8EB7BD00A92C4F /* FMResultSet+ObjectiveFMDB.h in Headers */,
 				5F6709C91E8EB7BD00A92C4F /* FMDatabase+DistanceFunction.h in Headers */,
+				5F743C211E9320D0005C1C9A /* NSString+SmalltalkCollections.h in Headers */,
+				5F743C191E9320D0005C1C9A /* NSArray+SmalltalkCollections.h in Headers */,
+				5F743C351E93212A005C1C9A /* FMDatabasePool.h in Headers */,
 				5F6709CD1E8EB7BD00A92C4F /* FMDatabaseQueue+ObjectiveFMDB.h in Headers */,
+				5F743C1F1E9320D0005C1C9A /* NSSet+SmalltalkCollections.h in Headers */,
 				5F6709C71E8EB7BD00A92C4F /* DBModel.h in Headers */,
+				5F743C1B1E9320D0005C1C9A /* NSDictionary+SmalltalkCollections.h in Headers */,
 				5F6709B41E8EB78D00A92C4F /* ObjectiveFMDB.h in Headers */,
 				5F6709CB1E8EB7BD00A92C4F /* FMDatabase+ObjectiveFMDB.h in Headers */,
+				5F743C331E93212A005C1C9A /* FMDatabaseAdditions.h in Headers */,
+				5F743C371E93212A005C1C9A /* FMDatabaseQueue.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,9 +346,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F6709D41E8EE14D00A92C4F /* DBModel+DBMigrations.m in Sources */,
+				5F743C221E9320D0005C1C9A /* NSString+SmalltalkCollections.m in Sources */,
+				5F743C201E9320D0005C1C9A /* NSSet+SmalltalkCollections.m in Sources */,
+				5F743C321E93212A005C1C9A /* FMDatabase.m in Sources */,
 				5F6709CC1E8EB7BD00A92C4F /* FMDatabase+ObjectiveFMDB.m in Sources */,
+				5F743C381E93212A005C1C9A /* FMDatabaseQueue.m in Sources */,
+				5F743C3B1E93212A005C1C9A /* FMResultSet.m in Sources */,
 				5F6709CA1E8EB7BD00A92C4F /* FMDatabase+DistanceFunction.m in Sources */,
 				5F6709D01E8EB7BD00A92C4F /* FMResultSet+ObjectiveFMDB.m in Sources */,
+				5F743C1C1E9320D0005C1C9A /* NSDictionary+SmalltalkCollections.m in Sources */,
+				5F743C341E93212A005C1C9A /* FMDatabaseAdditions.m in Sources */,
+				5F743C1E1E9320D0005C1C9A /* NSNumber+SmalltalkCollections.m in Sources */,
+				5F743C1A1E9320D0005C1C9A /* NSArray+SmalltalkCollections.m in Sources */,
+				5F743C361E93212A005C1C9A /* FMDatabasePool.m in Sources */,
 				5F6709CE1E8EB7BD00A92C4F /* FMDatabaseQueue+ObjectiveFMDB.m in Sources */,
 				5F6709C81E8EB7BD00A92C4F /* DBModel.m in Sources */,
 			);
@@ -440,6 +556,7 @@
 				5F6709B91E8EB78D00A92C4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5F6709BA1E8EB78D00A92C4F /* Build configuration list for PBXNativeTarget "ObjectiveFMDBTests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +565,7 @@
 				5F6709BC1E8EB78D00A92C4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

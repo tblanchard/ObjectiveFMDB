@@ -6,6 +6,7 @@
 //
 
 #import "FMDatabase+DistanceFunction.h"
+#import <sqlite3.h>
 
 #define DEG2RAD(degrees) (degrees / 180.0 * M_PI) // degrees * pi over 180
 

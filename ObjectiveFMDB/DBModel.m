@@ -593,7 +593,7 @@ __strong static NSString* _databaseName;
     NSArray* cols = schema[@"Columns"];
     if(![cols count])
     {
-        cols = [db schemaForTable:[self tablename]];
+        cols = [db getTableSchema:[self tablename]];
         schema[@"Columns"] = cols;
     }
     return cols;
